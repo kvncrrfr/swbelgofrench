@@ -3,7 +3,7 @@
 <footer>
   <div class="copy">
     <ul>
-      <li>&copy; 2017 Whats'Soup</li>
+      <li>&copy; 2017 FRESH'R</li>
     </ul>
   </div>
   <div class="liens">

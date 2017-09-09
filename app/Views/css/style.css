@@ -31,12 +31,19 @@ body {
     line-height: 300%; }
   body .login {
     padding-bottom: 5vh; }
+  body .ingredient {
+    box-shadow: 5px 5px 3px rgba(160, 159, 161, 0.8);
+    margin: 0 auto;
+    word-wrap: break-word;
+    text-align: left; }
+    body .ingredient img {
+      width: 50px; }
   body footer {
     padding: 5vh 0;
     width: 100%;
     margin: 0 auto;
     display: grid;
-    background-color: #333;
+    background-color: #111;
     grid-template-columns: 1fr;
     grid-template-areas: "co . . li ic"; }
     body footer ul {
