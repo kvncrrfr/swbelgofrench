@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 define('VIEW', 'Views/');
 define('CONTROLLER', 'Controllers/');
@@ -9,6 +9,10 @@ $action = isset($_GET['action']) ? htmlentities($_GET['action']) : 'default';
 $controller = '';
 
 switch ($action) {
+  case 'home':
+		require_once(CONTROLLER . 'HomeController.php');
+		$controller = new HomeController();
+		break;
 	case 'login':
 		require_once(CONTROLLER . 'LoginController.php');
 		$controller = new LoginController();
@@ -29,7 +33,7 @@ switch ($action) {
 		require_once(CONTROLLER . 'RecetteController.php');
 		$controller = new RecetteController();
 		break;
-	
+
 	default:
 		require_once(CONTROLLER . 'LoginController.php');
 		$controller = new LoginController();
