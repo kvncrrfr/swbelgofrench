@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="<?= VIEW . 'css/reset.css' ?>" >
+	<link rel="stylesheet" href="<?= VIEW . 'css/bootstrap.min.css' ?>" >
   <link rel="stylesheet" href="<?= VIEW . 'css/style.css' ?>" >
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-static-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -33,3 +34,4 @@
     </div>
   </div>
 </nav>
+<div class="container">

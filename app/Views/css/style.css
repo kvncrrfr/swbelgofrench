@@ -1,37 +1,57 @@
 body {
   padding-top: 15px;
-  font-size: 12px
-}
-.main {
-  max-width: 320px;
-  margin: 0 auto;
-}
-.login-or {
-  position: relative;
-  font-size: 18px;
-  color: #aaa;
-  margin-top: 10px;
-          margin-bottom: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.span-or {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: -2px;
-  margin-left: -25px;
-  background-color: #fff;
-  width: 50px;
-  text-align: center;
-}
-.hr-or {
-  background-color: #cdcdcd;
-  height: 1px;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-}
-h3 {
-  text-align: center;
-  line-height: 300%;
-}
+  font-size: 12px; }
+  body .main {
+    max-width: 320px;
+    margin: 0 auto; }
+  body .login-or {
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  body .span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center; }
+  body .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; }
+  body h3 {
+    text-align: center;
+    line-height: 300%; }
+  body .login {
+    padding-bottom: 5vh; }
+  body footer {
+    padding: 5vh 0;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    background-color: #333;
+    grid-template-columns: 1fr;
+    grid-template-areas: "co . . li ic"; }
+    body footer ul {
+      padding-left: 5px;
+      margin: 10px 5px; }
+    body footer li {
+      display: inline;
+      font-size: 1em;
+      color: #aaa;
+      padding: 5px; }
+    body footer .copy {
+      grid-area: co; }
+    body footer .liens {
+      grid-area: li; }
+    body footer .icones {
+      grid-area: ic; }
+
+/*# sourceMappingURL=style.css.map */
