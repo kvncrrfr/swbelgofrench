@@ -1,4 +1,4 @@
-<div class="container">
+
   <div class="row">
 
     <div class="main">
@@ -36,8 +36,5 @@
           Log In
         </button>
       </form>
-
     </div>
-
   </div>
-</div>
