@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto:300,400')
+$font1:    'Montserrat', sans-serif
+$font2:    'Roboto', sans-serif
+
 body
   padding-top: 15px
   font-size: 12px
+  font-family: $font2
+  h1, h2, h3, h4, h5
+    font-family: $font1
+  #home
+    background-color: #333
+    color: #fff
+    font-weight: 700
+    font-size: 3em
+    text-align: center
   .main
     max-width: 320px
     margin: 0 auto
@@ -46,7 +59,6 @@ body
     margin: 0 auto
     margin-top: 30px
     display: grid
-    // border: 1px solid #777
     background-color: #111
     grid-template-columns: 1fr
     grid-template-areas: "co . . li ic"

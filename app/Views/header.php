@@ -20,7 +20,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php?action=login"><span class="glyphicon glyphicon-home"></a></li>
+        <li class="active"><a href="index.php?action=home"><span class="glyphicon glyphicon-home"></a></li>
         <li><a href="index.php?action=login">Login</a></li>
         <li><a href="index.php?action=inventaire">Inventaire</a></li>
         <li><a href="index.php?action=liste-lot">Liste des lots</a></li>
