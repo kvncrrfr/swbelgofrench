@@ -1,4 +1,4 @@
 
 <div id="home">
-  <h1>FRESH'R</h1>
+  <h1>Fresh'R</h1>
 </div>

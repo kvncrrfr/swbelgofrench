@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto:300,400");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400|Cookie");
 body {
   padding-top: 15px;
   font-size: 12px;
@@ -9,9 +9,11 @@ body {
   body #home {
     background-color: #333;
     color: #fff;
-    font-weight: 700;
-    font-size: 3em;
-    text-align: center; }
+    padding-top: 2em; }
+    body #home h1 {
+      font-family: "Cookie", cursive;
+      font-size: 5em;
+      text-align: center; }
   body .main {
     max-width: 320px;
     margin: 0 auto; }
