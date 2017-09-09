@@ -25,7 +25,7 @@
         <li><a href="index.php?action=inventaire">Inventaire</a></li>
         <li><a href="index.php?action=liste-lot">Liste des lots</a></li>
         <li><a href="index.php?action=recette">Recette</a></li>
-        <li><a href="index.php?action=logout">Déconnexion</a></li>
+        <li><a href="index.php?action=home">Déconnexion</a></li>
     </ul>
       </ul>
       <ul class="nav navbar-nav navbar-right">

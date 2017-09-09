@@ -3,17 +3,33 @@ body {
   padding-top: 15px;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  background-color: #333; }
+  background-color: #333;
+  color: #aaa; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: "Montserrat", sans-serif; }
   body #home {
     background-color: #333;
     color: #fff;
-    padding-top: 2em; }
-    body #home h1 {
-      font-family: "Cookie", cursive;
-      font-size: 5em;
-      text-align: center; }
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: " logo" "nav"; }
+    body #home .homeLogo {
+      grid-area: logo; }
+      body #home .homeLogo h1 {
+        font-family: "Cookie", cursive;
+        font-size: 5em;
+        text-align: center; }
+    body #home .homeNav {
+      grid-area: nav;
+      align-self: end;
+      justify-self: center; }
+      body #home .homeNav img {
+        width: 40vw;
+        max-width: 100px; }
+      body #home .homeNav h2 a:hover {
+        width: 50vw; }
   body .main {
     max-width: 320px;
     margin: 0 auto; }
