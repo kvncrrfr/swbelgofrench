@@ -5,6 +5,7 @@
 	<title>Document</title>
   <link rel="stylesheet" href="<?= VIEW . 'css/reset.css' ?>" >
 	<link rel="stylesheet" href="<?= VIEW . 'css/bootstrap.min.css' ?>" >
+  <link rel="stylesheet" href="<?= VIEW . 'css/font-awesome.min.css' ?>" >
   <link rel="stylesheet" href="<?= VIEW . 'css/style.css' ?>" >
 </head>
 <body>
@@ -16,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">FRESH'R</a>
+      <a class="navbar-brand" href="#"><span class="Flogo">&nbsp;F </span>&nbsp;&nbsp;FRESH'R</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
