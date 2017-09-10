@@ -2,6 +2,9 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/master.css">
 	<title>Document</title>
   <link rel="stylesheet" href="<?= VIEW . 'css/reset.css' ?>" >
 	<link rel="stylesheet" href="<?= VIEW . 'css/bootstrap.min.css' ?>" >
@@ -9,6 +12,7 @@
   <link rel="stylesheet" href="<?= VIEW . 'css/style.css' ?>" >
 </head>
 <body>
+<<<<<<< HEAD
 <nav class="navbar navbar-inverse navbar-static-top">
   <div class="container-fluid">
     <div class="navbar-header">

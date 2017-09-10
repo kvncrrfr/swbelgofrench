@@ -5,6 +5,7 @@ define('CONTROLLER', 'Controllers/');
 
 require_once(VIEW . 'header.php');
 
+
 $action = isset($_GET['action']) ? htmlentities($_GET['action']) : 'default';
 $controller = '';
 
@@ -44,5 +45,6 @@ switch ($action) {
 $controller->run();
 
 require_once(VIEW . 'footer.php');
+
 
 ?>
