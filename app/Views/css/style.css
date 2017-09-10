@@ -19,14 +19,14 @@ body {
       grid-area: logo; }
       body #home .homeLogo h1 {
         font-family: "Cookie", cursive;
-        font-size: 5em;
+        font-size: 7em;
         text-align: center; }
     body #home .homeNav {
       grid-area: nav;
       align-self: end;
       justify-self: center; }
       body #home .homeNav img {
-        width: 40vw;
+        width: 15vw;
         max-width: 100px; }
       body #home .homeNav h2 a:hover {
         width: 50vw; }
@@ -34,6 +34,9 @@ body {
       grid-area: slogan; }
       body #home .homeSlogan h3 {
         font-family: "Montserrat", sans-serif; }
+    body #home .homeFood {
+      color: #aaa;
+      font-size: 1.5em; }
   body .main {
     max-width: 320px;
     margin: 0 auto; }
