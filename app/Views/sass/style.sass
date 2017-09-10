@@ -6,7 +6,7 @@ $font3:    'Cookie', cursive
 
 body
   padding-top: 15px
-  font-size: 12px
+  font-size: 100%
   font-family: $font2
   background-color: #333
   color: #aaa
@@ -68,14 +68,31 @@ body
     line-height: 300%
   .login
     padding-bottom: 5vh
+    //RECETTES
+  .titleRecipe
+    h2
+      font-size: 3em
+      font-family: $font1
+      text-align: center
+  .ingredientTitle
+    h3
+      font-family: $font2
+      font-size: 2em
 
-  .ingredient
-    box-shadow: 5px 5px 3px rgba(160, 159, 161, 0.8)
+  .ingredientItem
+    background-color: #aaa
+    // box-shadow: 5px 5px 3px rgba(160, 159, 161, 0.8)
+    border: 1px solid #d6d6d6
+    color: #333
     margin: 0 auto
     word-wrap: break-word
+    font-family: $font2
     text-align: left
     img
       width: 50px
+  .texteConsigne
+    font-family: $font2
+    font-size: 1.5em
 
   footer
     padding: 5vh 0
