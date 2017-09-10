@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400|Cookie')
+
+$font1:    'Montserrat', sans-serif
+$font2:    'Roboto', sans-serif
+$font3:    'Cookie', cursive
+
+body
+  padding-top: 15px
+  font-size: 100%
+  font-family: $font2
+  background-color: #333
+  color: #aaa
+  h1, h2, h3, h4, h5
+    font-family: $font1
+  #home
+    background-color: #333
+    color: #fff
+    padding-top: 2em
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr
+    grid-template-areas: " logo" "slogan" "nav"
+    .homeLogo
+      grid-area: logo
+      h1
+        font-family: $font3
+        font-size: 5em
+        text-align: center
+    .homeNav
+      grid-area: nav
+      align-self: end
+      justify-self: center
+      img
+        width: 40vw
+        max-width: 100px
+      h2
+        a:hover
+          width: 50vw
+    .homeSlogan
+      grid-area: slogan
+      h3
+        font-family: $font1
+
+
+
+  .main
+    max-width: 320px
+    margin: 0 auto
+  .login-or
+    position: relative
+    font-size: 18px
+    color: #aaa
+    margin-top: 10px
+    margin-bottom: 10px
+    padding-top: 10px
+    padding-bottom: 10px
+  .span-or
+    display: block
+    position: absolute
+    left: 50%
+    top: -2px
+    margin-left: -25px
+    background-color: #fff
+    width: 50px
+    text-align: center
+  .Flogo
+    font-family: $font3
+    font-size: 2em
+    border: 1px solid #d6d6d6
+    border-radius: 50%
+    width: 100px
+    height: 100px
+  .hr-or
+    background-color: #cdcdcd
+    height: 1px
+    margin-top: 0px !important
+    margin-bottom: 0px !important
+  h3
+    text-align: center
+    line-height: 300%
+  .login
+    padding-bottom: 5vh
+    //RECETTES
+  .titleRecipe
+    h2
+      font-size: 3em
+      font-family: $font1
+      text-align: center
+  .ingredientTitle
+    h3
+      font-family: $font2
+      font-size: 2em
+
+  .ingredientItem
+    background-color: #aaa
+    // box-shadow: 5px 5px 3px rgba(160, 159, 161, 0.8)
+    border: 1px solid #d6d6d6
+    color: #333
+    margin: 0 auto
+    word-wrap: break-word
+    font-family: $font2
+    text-align: left
+    img
+      width: 50px
+  .texteConsigne
+    font-family: $font2
+    font-size: 1.5em
+
+  footer
+    padding: 5vh 0
+    width: 100%
+    margin: 0 auto
+    margin-top: 30px
+    display: grid
+    background-color: #222
+    grid-template-columns: 2fr 1fr 3fr
+    grid-template-areas: "co . ic" "li . ic"
+    ul
+      padding-left: 5px
+      margin : 10px 5px
+    li
+      display: inline
+      font-size: 1em
+      color: #aaa
+      padding: 5px
+    .copy
+      grid-area: co
+    .liens
+      grid-area: li
+    .icones
+      grid-area: ic
+      font-size: 3em
+      justify-self: start
