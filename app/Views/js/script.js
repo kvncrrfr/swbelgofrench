@@ -31,7 +31,9 @@ $(document).ready(function () {
 				elem.addClass("icofont-check-circled");
 			}
 			$('.list-group>.lot').css('border-color', 'white');
+			$('.list-group>.lot').css('color', 'white');
 			$(this).children().first().css('border-color', 'green');
+			$(this).children().first().css('color', 'green');
 		});
 	}
 
