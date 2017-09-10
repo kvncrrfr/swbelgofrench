@@ -22,6 +22,8 @@
   </div>
 </footer>
 
+</div>
+
 <script src="<?= VIEW . 'js/jquery-2.2.4.js' ?>"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript">
@@ -30,6 +32,6 @@ if ($("#home").length > 0)  {
   $('footer').hide();
 }
 </script>
-<!-- <script src="<?= VIEW . 'js/app.js' ?>"></script> -->
+<script src="<?= VIEW . 'js/script.js' ?>"></script>
 </body>
 </html>

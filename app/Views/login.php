@@ -1,4 +1,6 @@
+
   <div class="row login">
+
     <div class="main">
       <h3>Please Log In, or <a href="#">Sign Up</a></h3>
       <div class="row">
@@ -30,7 +32,6 @@
             Remember me </label>
         </div>
         <a href="index.php?action=inventaire" class="btn btn btn-primary" role="button">Log In</a>
-
 
       </form>
     </div>

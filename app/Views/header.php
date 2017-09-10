@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="<?= VIEW . 'css/style.css' ?>" >
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-static-top">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -40,4 +41,4 @@
     </div>
   </div>
 </nav>
-<div class="container">
+<div class="container" id="wrapper">
