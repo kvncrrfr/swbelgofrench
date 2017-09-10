@@ -26,17 +26,18 @@ body {
       align-self: end;
       justify-self: center; }
       body #home .homeNav img {
-        width: 15vw;
+        width: 20vw;
         max-width: 100px; }
-      body #home .homeNav h2 a:hover {
-        width: 50vw; }
+      /*body #home .homeNav h2 a:hover {
+        width: 50vw; }*/
     body #home .homeSlogan {
       grid-area: slogan; }
       body #home .homeSlogan h3 {
-        font-family: "Montserrat", sans-serif; }
+        font-family: "Montserrat", sans-serif;
+        font-size: 2em;}
     body #home .homeFood {
       color: #aaa;
-      font-size: 1.5em; }
+      font-size: 1.4em; }
   body .main {
     max-width: 320px;
     margin: 0 auto; }
@@ -74,26 +75,31 @@ body {
     line-height: 300%; }
   body .login {
     padding-bottom: 5vh; }
+  body .login h3, body .login label {
+    color: #d4d4d4;  }
   body .titleRecipe h2 {
     font-size: 3em;
     font-family: "Montserrat", sans-serif;
-    text-align: center; }
+    text-align: center;
+    color: #d4d4d4; }
   body .ingredientTitle h3 {
     font-family: "Roboto", sans-serif;
-    font-size: 2em; }
+    font-size: 2em;
+    color: #d4d4d4; }
   body .ingredientItem {
-    background-color: #aaa;
+    background-color: #ededed;
     border: 1px solid #d6d6d6;
-    color: #333;
+    /*color: #d4d4d4;*/
     margin: 0 auto;
     word-wrap: break-word;
     font-family: "Roboto", sans-serif;
     text-align: left; }
     body .ingredientItem img {
       width: 50px; }
-  body .texteConsigne {
+  body .texteConsigne, body .consignesTitle {
     font-family: "Roboto", sans-serif;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    color: #d4d4d4; }
   body footer {
     padding: 5vh 0;
     width: 100%;
@@ -319,4 +325,31 @@ body {
 	margin-bottom: 15px;
 	margin-top: 15px;
 	width: 80%;
+}
+
+/*bouton like recette*/
+.buttonLike {
+  text-align: center;
+  margin: 0 auto;
+}
+/*.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}*/
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 20px;
+  line-height: 1.33;
+  border-radius: 25px;
+  text-align: center;
+}
+.btn-circle.btn-lg i{
+  margin-left: -2px;
 }

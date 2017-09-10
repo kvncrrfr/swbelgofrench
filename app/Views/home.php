@@ -6,7 +6,7 @@
   </div>
 
   <div class="homeSlogan">
-    <h3>Every <span class="homeFood">food</span> is a fresh start <span class="homeFood">
+    <h3>Every <span class="homeFood">food</span> is a fresh start<span class="homeFood">
       .</span></h3>
   </div>
 
