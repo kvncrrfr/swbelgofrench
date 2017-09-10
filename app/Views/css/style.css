@@ -145,6 +145,7 @@ body {
 */
 .frame{
 	margin-top: 20px;
+	margin-bottom: 70px;
 }
 .frame .list-group{
 	position: relative;
@@ -199,7 +200,7 @@ body {
 	bottom: 0px;
 	right: 0px;
 	left: 0px;
-	height: 70px;
+	height: 100px;
 	background-color: #222;
 	z-index: 10;
 }
@@ -305,7 +306,7 @@ body {
 }
 
 #frame-inventaire{
-	margin-bottom: 80px;
+	margin-bottom: 110px;
 	margin-top: 75px;
 }
 
@@ -314,7 +315,7 @@ body {
 	bottom: 0px;
 	right: 0px;
 	left: 0px;
-	height: 70px;
+	height: 100px;
 	background-color: #222;
 	z-index: 10;
 }
