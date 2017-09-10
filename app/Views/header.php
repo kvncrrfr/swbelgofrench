@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="<?= VIEW . 'css/style.css' ?>" >
 </head>
 <body>
-<<<<<<< HEAD
 <nav class="navbar navbar-inverse navbar-static-top">
   <div class="container-fluid">
     <div class="navbar-header">
