@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="<?= VIEW . 'css/reset.css' ?>" >
 	<link rel="stylesheet" href="<?= VIEW . 'css/bootstrap.min.css' ?>" >
   <link rel="stylesheet" href="<?= VIEW . 'css/font-awesome.min.css' ?>" >
+  <link rel="stylesheet" href="<?= VIEW . 'css/icofont.css' ?>" >
   <link rel="stylesheet" href="<?= VIEW . 'css/style.css' ?>" >
 </head>
 <body>
