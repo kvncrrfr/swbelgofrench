@@ -1,7 +1,7 @@
 <div class="row frame">
 	<form class="col-xs-12" action="index.php?action=recette" method="post">
 		<ul class="list-group">
-			<li class="list-group-item lot">Lot n°1 : 95% de rendement<span class="badge"><i class="icofont icofont-close-circled"></i></span></li>
+			<li class="list-group-item lot">Lot n°1 : 95% de rendement<span class="badge lot-badge"><i class="icofont icofont-close-circled"></i></span></li>
 			<li class="list-group-item">
 				1 - Soupe aux potirons
 				<span class="badge">
@@ -40,7 +40,7 @@
 			</li>
 		</ul>
 		<ul class="list-group">
-			<li class="list-group-item lot">Lot n°2 : 87% de rendement<span class="badge"><i class="icofont icofont-check-circled"></i></span></li>
+			<li class="list-group-item lot">Lot n°2 : 87% de rendement<span class="badge lot-badge"><i class="icofont icofont-close-circled"></i></span></li>
 			<li class="list-group-item">
 				3 - Soupe carotte/broccoli
 				<span class="badge">
