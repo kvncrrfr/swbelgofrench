@@ -1,13 +1,11 @@
 
   <div class="row titleRecipe">
-
     <h2><i class="icofont icofont-soup-bowl"></i> Soupe de Tomates</h2>
 
   </div>
 
   <div class="row ingredientTitle">
     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-
       <h3><i class="icofont icofont-listing-number"></i> Ingrédients</h3>
 
     </div>
@@ -15,7 +13,6 @@
 
   <div class="row ingredientItem">
     <div class="col-xs-8 col-sm-8 col-md-8">
-
       <h3><i class="icofont icofont-tomato"></i>Tomates</h3>
 
     </div>
@@ -26,7 +23,6 @@
 
   <div class="row ingredientItem">
     <div class="col-xs-8 col-sm-8 col-md-8">
-
       <h3><i class="icofont icofont-potato"></i> Pommes de Terre</h3>
 
     </div>
@@ -37,7 +33,6 @@
 
   <div class="row ingredientItem">
     <div class="col-xs-8 col-sm-8 col-md-8">
-
       <h3><i class="icofont icofont-salt-and-pepper"></i> Condiments</h3>
 
     </div>
@@ -48,7 +43,6 @@
 
   <div class="row consignesTitle">
     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-
       <h2><i class="icofont icofont-read-book"></i> Consignes</h2>
 
     </div>

@@ -30,7 +30,16 @@
 if ($("#home").length > 0)  {
   $('.navbar').hide();
   $('footer').hide();
-}
+};
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 800) {
+    $('.buttonLike').fadeIn();
+  } else {
+    $('.buttonLike').fadeOut();
+  }
+});
 </script>
 <script src="<?= VIEW . 'js/script.js' ?>"></script>
 </body>
