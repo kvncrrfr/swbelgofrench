@@ -8,7 +8,7 @@
 		</div>
 	</div>
 </div>
-<form id="inventaire" action="#" method="post" class="form-horizontal">
+<form id="inventaire" action="index.php?action=liste-lot" method="post" class="form-horizontal">
 	<div id="frame-inventaire">
 		<article class="article-inventaire">
 			<div class="row article">

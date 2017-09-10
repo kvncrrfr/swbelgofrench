@@ -5,8 +5,10 @@
 	<title>Document</title>
   <link rel="stylesheet" href="<?= VIEW . 'css/initialise.css' ?>">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="<?= VIEW . 'css/bootstrap.min.css' ?>"> -->
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="<?= VIEW . 'css/style.css' ?>">
+  <link rel="stylesheet" href="<?= VIEW . 'css/icofont.css' ?>">
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -29,10 +31,10 @@
     </ul>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><!-- <span class="glyphicon glyphicon-user"></span> --> Sign Up</a></li>
+        <li><a href="#"><!-- <span class="glyphicon glyphicon-log-in"></span> --> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
-<div class="container">
+<div class="container" id="wrapper">
