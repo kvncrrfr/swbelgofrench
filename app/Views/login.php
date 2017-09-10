@@ -29,9 +29,9 @@
             <input type="checkbox">
             Remember me </label>
         </div>
-        <button type="submit" action="" class="btn btn btn-primary">
-          Log In
-        </button>
+        <a href="index.php?action=inventaire" class="btn btn btn-primary" role="button">Log In</a>
+
+
       </form>
     </div>
   </div>

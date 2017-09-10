@@ -14,7 +14,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: " logo" "nav"; }
+    grid-template-areas: " logo" "slogan" "nav"; }
     body #home .homeLogo {
       grid-area: logo; }
       body #home .homeLogo h1 {
@@ -30,6 +30,10 @@ body {
         max-width: 100px; }
       body #home .homeNav h2 a:hover {
         width: 50vw; }
+    body #home .homeSlogan {
+      grid-area: slogan; }
+      body #home .homeSlogan h3 {
+        font-family: "Montserrat", sans-serif; }
   body .main {
     max-width: 320px;
     margin: 0 auto; }
@@ -93,7 +97,7 @@ body {
     margin: 0 auto;
     margin-top: 30px;
     display: grid;
-    background-color: #111;
+    background-color: #222;
     grid-template-columns: 2fr 1fr 3fr;
     grid-template-areas: "co . ic" "li . ic"; }
     body footer ul {
