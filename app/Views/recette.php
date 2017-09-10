@@ -57,5 +57,11 @@
       <p>You see, là on voit qu'on a beaucoup à travailler sur nous-mêmes car c'est juste une question d'awareness et finalement tout refaire depuis le début. Tu vas te dire : J'aurais jamais cru que le karaté guy pouvait parler comme ça !</p>
       <p>Oui alors écoute moi, là on voit qu'on a beaucoup à travailler sur nous-mêmes car on est tous capables de donner des informations à chacun et c'est une sensation réelle qui se produit si on veut ! Ça respire le meuble de Provence, hein ?
       </p>
+
     </div>
+  </div>
+  <div class="buttonLike">
+    <a href="index.php?action=recette" type="button" class="btn btn-info btn-circle btn-lg"><i class="glyphicon glyphicon-ok"></i></a>
+    <a href="index.php?action=home" type="button" class="btn btn-warning btn-circle btn-lg"><i class="glyphicon glyphicon-remove"></i></a>
+    <a href="index.php?action=recette" type="button" class="btn btn-danger btn-circle btn-lg"><i class="glyphicon glyphicon-heart"></i></a>
   </div>
